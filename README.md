@@ -12,6 +12,8 @@
 
 Litebox is an electronic document management system for start-ups who intend digitize their physical document and have a digital environment to create, store, retrieve and manage access to these electronic document records.
 
+version:0
+
 ## **Features**
 Currently work is in progress and these features will be added or updated.
 
