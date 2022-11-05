@@ -23,6 +23,6 @@ class AuthLayout extends Component
      */
     public function render()
     {
-        return view('layouts.global.auth');
+        return view('layouts.auth');
     }
 }
