@@ -8,6 +8,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/TheRealSageKing/litebox?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/TheRealSageKing/litebox?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/TheRealSageKing?style=social)
+
 ## **About LiteBox**
 
 Litebox is an electronic document management system for start-ups who intend digitize their physical document and have a digital environment to create, store, retrieve and manage access to these electronic document records.
@@ -15,36 +16,35 @@ Litebox is an electronic document management system for start-ups who intend dig
 version:0
 
 ## **Features**
+
 Currently work is in progress and these features will be added or updated.
 
-- User Authentication
-- User & Group Management
-- Document Storage & Retrieval
+-   User Authentication
+-   User & Group Management
+-   Document Storage & Retrieval
 
 Updates will be communicated here and also on [discord](#)
 
-----------
+---
 
 # Getting started
 
 ## **Installation**
 
-- Clone the repository
-- Install all the dependencies using composer. 
-    
-    ```composer install```
-- Copy the example env file and make the required configuration changes in the .env file
-- Generate a new application key.
+-   Clone the repository
+-   Install all the dependencies using composer.
+    `composer install`
+-   Copy the example env file and make the required configuration changes in the .env file
+-   Generate a new application key.
 
-    ```php artisan key:generate```
+    `php artisan key:generate`
 
-- Run the database migrations (**Set the database connection in .env before migrating**)
+-   Run the database migrations (**Set the database connection in .env before migrating**)
 
-    ```php artisan migrate```
+    `php artisan migrate`
 
--  Run ```npm install``` to install dependencies.
--  Run ```php artisan serve```. You can now access the server at http://localhost:8000
-
+-   Run `npm install` to install dependencies.
+-   Run `php artisan serve`. You can now access the server at http://localhost:8000
 
 ## **Contributing**
 

@@ -17,6 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
+<<<<<<< HEAD
     public const HOME = '/dashboard';
 
     /**
@@ -25,6 +26,14 @@ class RouteServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
+=======
+    public const HOME = '/home';
+
+    /**
+     * Define your route model bindings, pattern filters, and other route configuration.
+     */
+    public function boot(): void
+>>>>>>> c36fddf (:tada: Intial commit)
     {
         $this->configureRateLimiting();
 
@@ -40,10 +49,15 @@ class RouteServiceProvider extends ServiceProvider
 
     /**
      * Configure the rate limiters for the application.
+<<<<<<< HEAD
      *
      * @return void
      */
     protected function configureRateLimiting()
+=======
+     */
+    protected function configureRateLimiting(): void
+>>>>>>> c36fddf (:tada: Intial commit)
     {
         RateLimiter::for('api', function (Request $request) {
             return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
